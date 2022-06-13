@@ -38,7 +38,7 @@ export const App = () => {
   };
   const deleteAll = () => {
     setInput("");
-    setResult("0");
+    setResult("");
   };
   const erase = () => {
     setInput(input.slice(0, -1));
