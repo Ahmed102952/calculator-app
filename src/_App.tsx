@@ -37,7 +37,7 @@ export const App = () => {
   };
   const deleteAll = () => {
     setInput("");
-    setResult("");
+    setResult("0");
   };
   const erase = () => {
     setInput(input.slice(0, -1));
@@ -54,7 +54,7 @@ export const App = () => {
     try {
       const res = calc(input);
       if (typeof res === "string") {
-        setResult(res);
+        res == ""? setResult("0") : setResult(res);
       }
     } catch (err) {
       setResult("");
