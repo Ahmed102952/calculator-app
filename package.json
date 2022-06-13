@@ -1,0 +1,40 @@
+{
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "tailwindcss": "^3.0.24"
+  },
+  "devDependencies": {
+    "@parcel/transformer-react-refresh-wrap": "^2.6.0",
+    "@types/react": "^17.0.45",
+    "@types/react-dom": "^17.0.17",
+    "@typescript-eslint/eslint-plugin": "^5.27.1",
+    "@typescript-eslint/parser": "^5.27.1",
+    "autoprefixer": "^10.4.7",
+    "eslint": "^8.17.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-import-resolver-typescript": "^2.7.1",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-jsx-a11y": "^6.5.1",
+    "eslint-plugin-react": "^7.30.0",
+    "eslint-plugin-react-hooks": "^4.5.0",
+    "eslint-plugin-typescript": "^0.14.0",
+    "parcel": "^2.6.0",
+    "postcss": "^8.4.14",
+    "prettier": "^2.6.2",
+    "process": "^0.11.10",
+    "tsc": "^2.0.4"
+  },
+  "name": "calculator-app",
+  "version": "1.0.0",
+  "scripts": {
+    "format": "prettier --write \"src/**/*.{js,jsx}\"",
+    "lint": "eslint \"src/**/*.{ts,tsx}\" --quiet --fix",
+    "dev": "parcel src/index.html --dist-dir ./build/",
+    "build": "parcel build src/index.html --dist-dir ./build/ "
+  },
+  "keywords": [],
+  "author": "Angel aka (A.M)",
+  "license": "ISC",
+  "description": ""
+}
