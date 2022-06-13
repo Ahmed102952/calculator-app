@@ -4,6 +4,6 @@
 
 @layer utilities {
   .btn {
-    @apply text-2xl font-semibold rounded-2xl w-full max-w-[3.2rem] h-full aspect-square grid place-items-center mx-auto shadow-md shadow-blue-100 dark:shadow-black;
+    @apply text-2xl font-semibold rounded-2xl w-full max-w-[3.2rem] h-full aspect-square grid place-items-center mx-auto shadow-md shadow-blue-100 dark:shadow-black hover:opacity-60;
   }
 }

@@ -71,8 +71,8 @@ export const App = () => {
   }
 
   return (
-    <div className="bg-blue-50 dark:bg-gray-800 min-h-screen w-screen px-5 grid place-items-center ">
-      <div className="max-w-[21rem] sm:max-h-[38.125rem] max-h-[38rem] w-full h-full px-7 pt-16 pb-6 bg-bg-light dark:bg-bg-dark bg-opacity-60 flex flex-col justify-between rounded-2xl relative bg-blend-multiply dark:bg-opacity-75 shadow-2xl dark:shadow-black">
+    <div className="bg-blue-50 dark:bg-gray-800 min-h-screen w-screen px-5 grid place-items-center transition-all duration-300">
+      <div className="max-w-[21rem] sm:max-h-[38.125rem] max-h-[38rem] w-full h-full px-7 pt-16 pb-6 bg-bg-light dark:bg-bg-dark bg-opacity-60 flex flex-col justify-between rounded-3xl relative bg-blend-multiply dark:bg-opacity-75 shadow-2xl shadow-blue-300 dark:shadow-black">
         <button className="absolute top-5 right-7 rounded-full shadow-sm p-1 shadow-blue-50 dark:shadow-black" onClick={switchMode} >
         <Switch />
         </button>
