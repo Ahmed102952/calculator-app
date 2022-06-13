@@ -55,7 +55,7 @@ export const App = () => {
     try {
       const res = calc(input);
       if (typeof res === "string") {
-        res == ""? setResult("0") : setResult(res);
+        setResult(res);
       }
     } catch (err) {
       setResult("");
