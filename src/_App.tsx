@@ -8,7 +8,7 @@ import Attr from "./components/attr";
 
 export const App = () => {
   const [theme, setTheme] = useState("default");
-  const [input, setInput] = useState("0");
+  const [input, setInput] = useState("");
   const [result, setResult] = useState("");
 
   useEffect(() => {
